@@ -1,0 +1,40 @@
+.menu-props {
+    width: 230px;
+    .menu-item {
+        margin: 0;
+        padding: 11px 15px;
+        width: 100%;
+        justify-content: left;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 20px;
+
+        &:hover {
+            background: rgba(22, 24, 35, 0.03);
+        }
+    }
+    .separate {
+        border-top: 1px solid rgba(22, 24, 35, 0.12);
+    }
+}
+
+.header {
+    position: relative;
+    height: 50px;
+    margin-top: -8px;
+}
+
+.header-btn {
+    height: 100%;
+    width: 50px;
+    background-color: transparent;
+    font-size: 1.6rem;
+    justify-content: left;
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
